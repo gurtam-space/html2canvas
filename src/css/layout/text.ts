@@ -109,6 +109,8 @@ const breakLines = (value: string, styles: CSSParsedDeclaration, node: Text): st
         }
     }
 
+    acc = acc.trim()
+
     if (acc.length > 0) {
         lines.push(acc);
     }
